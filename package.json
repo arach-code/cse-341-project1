@@ -12,10 +12,10 @@
   },
   "license": "ISC",
   "author": "arach abel",
-  "type": "server.js",
-  "main": "index.js",
+  "type": "commonjs",
+  "main": "server.js",
   "scripts": {
-  "start": "node index.js",
+  "start": "node server.js",
   "server": "json-server --watch db.json --port 3000"
 },
   "dependencies": {
