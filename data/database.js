@@ -1,7 +1,7 @@
 const dotenv = require('dotenv');
 dotenv.config();
 
-const mongoClient = require('mongo').mongoclient;
+const mongoClient = require('mongodb').mongoclient;
 
 let database;
 
